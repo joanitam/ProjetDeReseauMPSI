@@ -41,16 +41,7 @@ Ce script exécute les actions suivantes :
 ---
 3. **INSTALL_IREDMAIL_DEPENDANCES(1).sh**
 Ce script exécute les actions suivantes :
-- Installation des packages de IredMail depuis un depot github
-    ```
-    apt -y install wget
-    wget https://github.com/iredmail/iRedMail/archive/refs/tags/1.5.2.tar.gz
-    ```
-- Extraction du fichier et deplacement dans le dossier
-    ```
-    tar xvf 1.5.2.tar.gz
-    cd iRedMail-1.5.2
-    ```
+installation de toutes les dépendances requises pour l’installation de IREDMAIL
 
 Lancement des scripts
 
