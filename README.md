@@ -20,9 +20,13 @@ Et comme indiqué dans le projet, nous avons installé deux machines virtuelles 
 
 1. **INSTALL_ALL_DEPENDANCES(1).sh**
 
-Ce script execute les scriptes **INSTALL_MYSQL(1).sh** et  **INSTALL_IREDMAIL_DEPENDANCES(1).sh** qui servent respectivement à installer et configurer MySQL (la base de données) et IRedMail (le serveur de messagerie)  .
+Ce script execute les scriptes **INSTALL_MYSQL(1).sh** et  **INSTALL_IREDMAIL_DEPENDANCES(1).sh** qui servent respectivement à installer et configurer MySQL (la base de données) et IRedMail (le serveur de messagerie).
+
+Execution: bash install INSTALL_IREDMAIL_DEPENDENCIES.sh
+
 
 2. **INSTALL_MYSQL(1).sh**
+Execution: bash install INSTALL_MySQL.sh
 
 Ce script exécute les actions suivantes :
 - Mise à jour du système    
@@ -43,7 +47,7 @@ Ce script exécute les actions suivantes :
 Ce script exécute les actions suivantes :
 installation de toutes les dépendances requises pour l’installation de IREDMAIL
 
-Lancement des scripts
+Execution: bash install INSTALL_IREDMAIL_DEPENDENCIES.sh
 
 Cote serveur
 Le script etablit une communication avec le client et récupère les informations entrées par le client pour effectuer 
