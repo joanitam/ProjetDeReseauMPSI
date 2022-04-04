@@ -54,6 +54,9 @@ Ce script exécute les actions suivantes :
 
 Lancement des scripts
 
+Cote serveur
+Le script etablit une communication avec le client et récupère les informations entrées par le client afin de les enregistrer dans la base de données. 
+
 sudo python3 server.py
 saisi du mot de passe
 Demarrage du serveur
