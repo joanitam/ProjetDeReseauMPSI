@@ -6,6 +6,7 @@ Projet reseau MPSI
 ## Environnement technique
 
 Pour l'installation de nos trois machines virtuelles, nous avons installé 
+VirtualBox.  
 
 Nous avons réalisé le travail avec trois machines virtuelles 
 
