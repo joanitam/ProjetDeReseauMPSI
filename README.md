@@ -58,7 +58,10 @@ sudo python3 server.py
 saisi du mot de passe
 Demarrage du serveur
 
-cote client lancement du script client.py et en fonction de l'option choisi le serveur reagit
+cote client 
+le script client.py permet d'interagir avec le serveur en ecoute, tous deux sur le meme port.
+Avec le script, une connexion est etablie avec le serveur se trouvant dans le meme reseau
+lancement du script client.py et en fonction de l'option choisi le serveur reagit
 
 
 
