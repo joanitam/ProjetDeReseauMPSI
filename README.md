@@ -58,5 +58,9 @@ sudo python3 server.py
 saisi du mot de passe
 Demarrage du serveur
 
+cote client lancement du script client.py et en fonction de l'option choisi le serveur reagit
+
+
+
 
     
