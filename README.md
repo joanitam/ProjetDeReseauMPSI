@@ -6,7 +6,8 @@ Projet reseau MPSI
 ## Environnement technique
 
 Pour l'installation de nos trois machines virtuelles, nous avons installé 
-VirtualBox.  
+VirtualBox. 
+Et comme indiqué dans le projet, nous avons installé deux machines virtuelles linux et une machine virtuelle Kali
 
 Nous avons réalisé le travail avec trois machines virtuelles 
 
