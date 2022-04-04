@@ -71,8 +71,9 @@ Après avoir configuré le nom de domain, on lance le script
 
 execution du script avec: 
 
-```pwd et bash iRedmail.sh
-```
+   ```
+   pwd et bash iRedmail.sh
+   ```
 
 Cote serveur
 Le script etablit une communication avec le client et récupère les informations entrées par le client pour effectuer 
