@@ -17,7 +17,6 @@ Et comme indiqué dans le projet, nous avons installé deux machines virtuelles 
     KaliLinux
 ***
 ## Documentation des scripts
- 
 
 1. **INSTALL_ALL_DEPENDANCES(1).sh**
 
@@ -26,37 +25,38 @@ Ce script execute les scriptes **INSTALL_MYSQL(1).sh** et  **INSTALL_IREDMAIL_DE
 2. **INSTALL_MYSQL(1).sh**
 
 Ce script exécute les actions suivantes :
-- Mise à jour du système
-        
+- Mise à jour du système    
     ```
     apt update
     ```
-
 - Installation des packages Mariadb et Mariadb-server
-
     ``` 
     apt install mariadb-client
     apt install mariadb-server 
     ```
 - Démarrage du service mariadb
-
     ```
     systemctl start mariadb.service
     ```
 ---
 3. **INSTALL_IREDMAIL_DEPENDANCES(1).sh**
-
 Ce script exécute les actions suivantes :
 - Installation des packages de IredMail depuis un depot github
-
     ```
     apt -y install wget
     wget https://github.com/iredmail/iRedMail/archive/refs/tags/1.5.2.tar.gz
     ```
-
 - Extraction du fichier et deplacement dans le dossier
-
     ```
     tar xvf 1.5.2.tar.gz
     cd iRedMail-1.5.2
     ```
+
+Lancement des scripts
+
+sudo python3 server.py
+saisi du mot de passe
+Demarrage du serveur
+
+
+    
