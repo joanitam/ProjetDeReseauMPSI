@@ -60,15 +60,3 @@ Ce script exécute les actions suivantes :
     tar xvf 1.5.2.tar.gz
     cd iRedMail-1.5.2
     ```
-- Attribution des droits
-
-    ```
-    chmod +x iRedMail.sh
-    ```
-
-- Execution du script
-
-    ```
-    pwd
-    bash iRedmail.sh
-    ```
