@@ -9,18 +9,12 @@ Pour l'installation de nos trois machines virtuelles, nous avons installé
 VirtualBox. 
 Et comme indiqué dans le projet, nous avons installé deux machines virtuelles linux et une machine virtuelle Kali
 
-Nous avons réalisé le travail avec trois machines virtuelles 
-
 1. **Machine Server**
-     
-
-
+     Ubuntu 20.04
 2. **Machine client**
-
-
-
+    Ubuntu 20.04
 3. **Machine « Man in the middle »**
-
+    KaliLinux
 ***
 ## Documentation des scripts
  
