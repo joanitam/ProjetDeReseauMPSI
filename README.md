@@ -62,8 +62,3 @@ sudo python3 client.py
  L'option 1 correspond à la connexion de l'utilisateur qui existe déjà dans la base de données
  L'option 2 correspond à l'inscription d'un utilisateur qu'on enrégistre dans la base de données
  L'option 3 consiste à quitter
-
-
-
-
-    
