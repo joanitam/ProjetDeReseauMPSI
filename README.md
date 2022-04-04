@@ -44,10 +44,32 @@ Ce script exécute les actions suivantes :
     ```
 ---
 3. **INSTALL_IREDMAIL_DEPENDANCES(1).sh**
-Ce script exécute les actions suivantes :
-installation de toutes les dépendances requises pour l’installation de IREDMAIL
 
-Execution: bash install INSTALL_IREDMAIL_DEPENDENCIES.sh
+Pour IREDMAIL nous avons la version 1.5.2.
+- Installation des packages de IredMail depuis un depot github
+
+    ```
+    apt -y install wget
+    wget https://github.com/iredmail/iRedMail/archive/refs/tags/1.5.2.tar.gz
+    ```
+
+- Extraction du fichier et deplacement dans le dossier
+
+    ```
+    tar xvf 1.5.2.tar.gz
+    cd iRedMail-1.5.2
+    ```
+- Attribution des droits
+
+    ```
+    chmod +x iRedMail.sh
+    ```
+
+- Execution du script
+
+Après avoir configuré le nom de domain, on lance le script
+
+execution du script avec: pwd et bash iRedmail.sh
 
 Cote serveur
 Le script etablit une communication avec le client et récupère les informations entrées par le client pour effectuer 
