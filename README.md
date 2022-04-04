@@ -78,16 +78,19 @@ Cote serveur
 Le script etablit une communication avec le client et récupère les informations entrées par le client pour effectuer 
 des enregistrements dans la base de données. 
 
-```sudo python3 server.py
-```
+    ```
+    sudo python3 server.py
+    ```
 
 saisi du mot de passe
 Demarrage du serveur
 
 cote client 
 
-```
-sudo python3 client.py
+    ```
+    sudo python3 client.py
+    ```
+
 le script client.py permet d'interagir avec le serveur en ecoute, tous deux sur le meme port.
 Avec le script, une connexion est etablie avec le serveur se trouvant dans le meme reseau
 lancement du script client.py et en fonction de l'option choisi le serveur reagit
